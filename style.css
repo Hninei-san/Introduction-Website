@@ -8,7 +8,6 @@ html, body {
     justify-content: space-around;
     align-items: center;
     height: 100px;
-    position: sticky;
     top: 0;
     border-bottom: 1px solid lightgray;
     background-color: #FAFAFA;
@@ -17,7 +16,7 @@ html, body {
 .logoContainer {
     width: 50px;
     height: 50px;
-    margin-right: -200px;
+    margin-right: 7%;
   }
   
 
@@ -113,22 +112,23 @@ button:active{
     justify-content:space-evenly;
     align-items: center;
 }
-.about-container img{
-    height:250px;
-}
+
 .about-text{
     width:500px;
 } 
+.about-container img{
+    height:230px;
+}
 .about-text p:nth-child(1){
     color:#403e3e;
     font-family: calibri;
     font-weight:bold;
-    font-size:23px;
+    font-size:26px;
     line-height:0px;
 }
 .about-text p:nth-child(2){
     color:#3e3d3d;
-    font-size:13px;
+    font-size:19px;
     font-family: calibri;
     font-weight:bold;
     line-height:5px;
@@ -136,7 +136,7 @@ button:active{
 .about-text p:nth-child(3),.about-text p:nth-child(4){
     color:#7e7d7d;
     font-family:calibri;
-    font-size:16px;
+    font-size:18px;
 }
 #Activities{
     height:600px;
@@ -184,13 +184,13 @@ font-size: ;}
 }
  
 .box-1{
-    background-image:url("services-1.png");
+    background-image:url("services-2.png");
 }
 .box-2{
     background-image:url("services-2.png");
 }
 .box-3{
-    background-image: url("servies-3.png");
+    background-image: url("services-2.png");
 }
 .box-1 span,
 .box-2 span,
@@ -239,7 +239,7 @@ font-size: ;}
 	margin:30px 0px;
 	flex-direction: column;
 }
-.recent-heading span,
+
 .client-heading span{
 	color:#2B2B2B;
 	font-weight: 500;
@@ -314,10 +314,10 @@ footer{
 	display:flex;
 	justify-content: space-around;
 	border-top: 1px solid rgba(232,232,232,0.5);
-	background-color:#FFFFFF;
+	background-color:#FAFAFA;
 }
 footer p{
-	margin:15px 0px;
+	margin:1% ;
 	color:#5f5f5f;
 	font-size: 0.9rem;
 }
@@ -443,5 +443,6 @@ footer p{
 		width: 160px;
 	}
 }
+
 
 
