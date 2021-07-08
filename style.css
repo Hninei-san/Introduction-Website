@@ -236,7 +236,7 @@ font-size: ;}
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin:30px 0px;
+	margin-top:-10%;
 	flex-direction: column;
 }
 
@@ -257,7 +257,7 @@ font-size: ;}
 	letter-spacing: 1px;
 }
 .recent-img{
-	margin:0px 40px;
+	margin:2%;
 }
 .recent-img img{
 	width:100%;
