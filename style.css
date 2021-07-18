@@ -105,6 +105,7 @@ li {
   left: 0;
   width: 100%;
   background-color: black;
+  opacity: 0.9;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   z-index: 999;
 }
@@ -230,6 +231,7 @@ li {
   top: 50%;
   transform: translate(25%, -50%);
   color: #fff;
+  left: 4%;
 }
 
 .hero h3 {
@@ -315,8 +317,20 @@ li {
 }
 
 @media only screen and (max-width: 567px) {
-  .icons {
+  /* .icons {
     display: none;
+  } */
+  .banner{
+    display: none;
+  }
+  .hero{
+   margin-top: 20%;
+  }
+  .left  {
+    
+    display: none;
+    /* max-width: 30rem; */
+    /* object-fit: cover; */
   }
 }
 
@@ -328,7 +342,7 @@ li {
 }
 
 .about {
-  margin-top: 5rem;
+  margin-top: 2rem;
 }
 
 .about-center {
@@ -362,10 +376,11 @@ li {
 }
 
 .left img {
-  height: 40rem;
-  max-width: 35rem;
+  height: 20rem;
+  max-width: 30rem;
   object-fit: cover;
 }
+
 
 .right h1 {
   margin-bottom: 2rem;
@@ -688,7 +703,3 @@ footer p {
 footer p span {
   color: dimgrey;
 }
-
-
-
-
